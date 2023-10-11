@@ -1,0 +1,38 @@
+.text-overflow{
+    width: 150px;
+    border: 1px solid black;
+    text-overflow: ellipsis;     /* clip (default), ellipsis */
+    overflow: hidden;       /* Overfloaw and whitespace are mandatory*/
+    white-space: nowrap;
+}
+
+.text-overflow:hover{
+    overflow: visible;
+}
+
+/* normal (default), keep-all, break-all, break-word */
+.break-word{        
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    word-break: break-word;
+}
+
+
+/* Word-wrap */
+.word-wrap{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+/* Opacity */
+img{
+    height: 300px;
+    width: 300px;
+    opacity: 0.2;
+}
+img:hover{
+    opacity: 1;
+}

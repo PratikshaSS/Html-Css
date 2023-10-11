@@ -1,0 +1,51 @@
+
+.position-static{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: static;   /* Default : write here or not its default */
+    top:50px;   /*All properties are disable if static is a position*/
+}
+
+.position-relative{
+    border: 1px solid black;
+    height:200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.position-abs{
+    border: 1px solid black;
+    height:200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    top: 440px;
+    left: 200;
+}
+
+.position-fixed{
+    border: 1px solid black;
+    width:1400px;
+    height:30px;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+}
+
+.position-sticky{
+    border: 1px solid black;
+    width:1400px;
+    height:30px;
+    background-color: rgb(158, 104, 104);
+    position: sticky;
+    top:0px;
+}
+
+.main-container{
+    height: 1000px;
+}

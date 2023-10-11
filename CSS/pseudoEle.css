@@ -1,0 +1,148 @@
+
+/* Hover */
+.btn{
+    color: white;
+    background-color: green;
+    width: 187px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+}
+/* pseudo state-->> Selector/element : pseudo state {property:value}*/
+button.btn:hover{
+    background-color: cadetblue;
+    color: red;
+    cursor: pointer;
+}
+
+
+.submit_btn{
+    color: white;
+    background-color: rgb(240, 114, 56);
+    width: 187px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+}
+div.main div button.submit_btn:hover{
+    background-color: rgb(5, 62, 63);
+    color: red;
+    cursor:pointer;
+}
+
+
+button{
+    background-color: black;
+    color:white;
+    width: 187px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+}
+button:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+
+div div div.container div.container1 button:hover{
+    background-color: blue;
+    color:orange;
+    cursor:pointer;
+}
+
+/* Focus */
+input.input-box1:focus{
+    background-color: blue;
+}
+
+input.input-box2:focus{
+    background-color: brown;
+}
+
+input.input-box1:hover{
+    background-color: blue;
+}
+
+input.input-box2:hover{
+    background-color: brown;
+}
+
+/* Unvisited link */
+a:link{
+    color: rgb(10, 10, 10);
+}
+/* Visited Link */
+a:visited{
+    color:rgb(98, 231, 71);
+} 
+/* Mouse Over Link */
+a:hover{
+    color:hotpink;
+}
+/* Selected Link */
+a:active{
+    color: yellow;
+}
+
+
+/* First Line Pseudo Element */
+p.f-line::first-line{
+    color: rgb(8, 124, 27);
+    font-size: 30px;
+    font-family: 'Courier New';
+}
+/* First Letter Pseudo Element */
+p.f-letter::first-letter{
+    font-size: 40px;
+    color:red;
+}
+
+/* Marker Pseudo Element */
+::marker{
+    color: aqua;
+}
+
+/* Selection Pseudo Element */
+div::selection{
+    color:red;
+    background-color: yellow;
+}
+
+/* HTML classes and Pseudo Classes */
+a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+  } 
+a.highlight1:hover{
+    color:aqua;
+    font-size: 30px;
+}
+
+/* Simple Tooltip Hover */
+p.tooltip-para {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div.tooltip:hover p.tooltip-para {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+

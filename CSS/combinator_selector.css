@@ -1,0 +1,20 @@
+/* 1. Descendant Selector */
+div p{
+    color: rgb(129, 8, 243);
+}
+
+/* 2. Child Selector */
+div > p{
+    background-color: rgb(217, 194, 238);
+}
+
+/* 3. Adjacent Sibling Selector */
+div + h2{
+    font-size: 50px;
+}
+
+/* 4. General Sibling Selector */
+div ~ h4{
+    font-style: italic;
+    color: brown;
+}

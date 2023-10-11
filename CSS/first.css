@@ -1,0 +1,41 @@
+/* id selector  SYNTAX : 
+            #idName {properties : value } */
+
+#spantag{
+    color:blueviolet;
+}
+
+#para{
+    background-color: burlywood;
+    font-size:20px
+}
+#para{
+    background-color: black;
+    color: red;
+}
+
+/* Element Selector */
+h4,h5{
+    text-align: center;
+    color: rgb(94, 47, 170);
+    font-size: 30px;
+}
+
+
+/* Class Selector  SYNTAX : 
+        .(period operator)className(properties:value) */
+
+.div-container{
+    color: aqua;
+    font-size: 20px;
+}
+
+.para{
+    background-color: yellowgreen;
+    font-size: 50px;
+}
+.para{
+    background-color: yellow;
+    color: brown;
+}
+

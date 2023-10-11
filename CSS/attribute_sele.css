@@ -1,0 +1,21 @@
+input[type="text"]{
+    background-color: yellow;
+    width:300px;
+}
+
+.inp-state{
+    background-color: aquamarine;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+}
+
+/* Universal Selector */
+*{
+    background-color: hotpink;
+    height: 100px;
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

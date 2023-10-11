@@ -1,0 +1,40 @@
+p{
+    color:yellowgreen;
+    text-shadow: 2px 2px 4px red;   /*Horizontal verticle blur color*/
+    font-size: 40px;
+}
+
+.div-shadow{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    box-shadow: 18px 18px 4px pink;
+}
+
+.text-transfer{
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+}
+
+.text-decor{
+    text-decoration: underline overline;
+    /*  overline, line-through, underline , underline overline */
+}
+
+.txt-align{
+    text-align: center;  /*center, left, right, justify*/
+    border: 1px solid black;
+}
+
+.text-overflow{
+    /* overflow : visible, hidden, scroll, auto */
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+    /* overflow-x: unset;
+    overflow-y: scroll; */
+}
+

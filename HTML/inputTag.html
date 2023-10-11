@@ -1,0 +1,52 @@
+ <!-- 2 ways to create button on UI -->
+ <br>
+ <form>
+     Name : <input type="text">
+     <br><br>
+
+     <label>Name : </label>
+     <input type="text" maxlength="15" minlength="4" required>
+     <br><br>
+
+     <label>Mob No1 : </label>
+     <input type="number" required>
+     <br><br>
+
+     <label>Mob No2 : </label>
+     <input type="text" required  pattern="[0-9]{10}">
+     <br><br>
+
+     <label>Password : </label>
+     <input type="password" pattern="[A-Z]{1}{0-9A-za-z@#$%&*]{10}">
+     <br><br>
+
+     <label>PAN No : </label>
+     <input type="text" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}">
+     <br><br>
+
+     <!-- type=checkbox : multiselection-->
+     <label>Hobbies</label><br>
+     <input type="checkbox">Painting<br>
+     <input type="checkbox">Dancing<br>
+     <input type="checkbox">Cycling<br>
+     <br>
+
+    <!-- type=radio : single selection-->
+    <label>Gender</label><br>
+    <input type="radio" name="gender">Male<br> 
+    <input type="radio" name="gender">Female<br> 
+    <br>
+
+    <!-- Upload Files -->
+    <label>File Upload</label><br>
+    <input type="file" id="fileUploadBox">
+    <br><br>
+
+    <!-- Search -->
+    <label>Search</label><br>
+    <input type="search" id="searchBox" name="sBox">
+    <br><br>
+
+    <!-- Submit Form -->
+    <button>Submit</button>
+ </form>
